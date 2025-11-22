@@ -1,0 +1,23 @@
+.user-root {
+    padding: 28px;
+    max-width: 900px;
+    margin: 28px auto;
+  }
+  
+  .user-card {
+    border-radius: 12px;
+    padding: 12px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  }
+  
+  .user-name {
+    font-weight: 800;
+    letter-spacing: 0.2px;
+  }
+  
+  .user-loading {
+    padding: 40px;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+  }
+  

@@ -1,0 +1,68 @@
+.topbar-appBar {
+  background: linear-gradient(90deg, #1565c0 0%, #42a5f5 100%);
+  color: white;
+  box-shadow: 0 6px 18px rgba(21, 101, 192, 0.25);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  min-height: 64px;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-logo {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.12);
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.topbar-titleWrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.topbar-title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.topbar-subtitle {
+  opacity: 0.92;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-chip {
+  background: rgba(255,255,255,0.12);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 999px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}

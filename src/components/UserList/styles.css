@@ -1,0 +1,11 @@
+.user-list {
+  padding: 0;
+}
+
+.user-list .MuiListItem-root {
+  cursor: pointer;
+}
+
+.user-list .MuiListItemText-primary {
+  font-weight: 500;
+}

@@ -1,0 +1,4 @@
+.photo-detail-root img { 
+    max-height: 600px;
+    width: 100%; object-fit: cover; 
+}

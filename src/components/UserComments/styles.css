@@ -1,0 +1,21 @@
+.user-comments-root {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .comment-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.18s ease;
+  }
+  
+  .comment-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(10, 20, 40, 0.12);
+  }
+  
+  .comment-thumb {
+    object-fit: cover;
+  }
+  

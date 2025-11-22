@@ -1,0 +1,63 @@
+.photos-root {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 24px auto;
+  }
+  
+  .photo-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform .22s ease, box-shadow .22s ease;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  }
+  
+  .photo-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(10,20,40,0.18);
+  }
+  
+  .photo-media {
+    object-fit: cover;
+  }
+  
+  .photo-card-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  .photo-card-meta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .photo-title {
+    font-weight: 700;
+  }
+  
+  .photo-desc {
+    margin-top: 8px;
+    color: rgba(0,0,0,0.72);
+    min-height: 36px;
+  }
+  
+  .photo-actions {
+    padding: 12px 16px;
+  }
+  
+  .photo-chip {
+    background: rgba(0,0,0,0.06);
+    height: 28px;
+  }
+  
+  .photo-author-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding-right: 8px;
+  }
+  
